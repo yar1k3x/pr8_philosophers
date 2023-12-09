@@ -21,6 +21,6 @@ fun main(args: Array<String>) {
 
     // Философы берут вилки
     for (i in 0 until philosopherCount) {
-        philosophers[i].takeFork(forks)
+        philosophers[i].dineWithForks(forks)
     }
 }
